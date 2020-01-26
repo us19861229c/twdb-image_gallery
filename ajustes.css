@@ -1,0 +1,83 @@
+@font-face {
+    font-family: "ifs";
+    src: url(fonts/ifs.otf) format("opentype");
+}
+@font-face{
+    font-family: "je";
+    src: url(fonts/je.ttf) format("truetype")
+}
+
+body {
+    padding-top: 70px;
+    font-family: "ifs";
+}
+
+.jumbotron {
+    color: rgb(134, 21, 67);
+    background:peachpuff;
+}
+
+.navbar-inverse {
+    background-color:rgb(134, 21, 67);
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: peachpuff;
+}
+
+.navbar-inverse .navbar-brand {
+    color: peachpuff;
+}
+
+.hero img {
+	-webkit-filter: blur(1px);
+	filter: blur(1px);
+    
+}
+
+.hero figcaption{
+    position: absolute;
+    font-style: normal;
+    padding: 0;
+    margin: 0;
+    left: 0;
+    top: 50%;
+    color: peachpuff;
+    
+    transform: translateY(-50%);
+    text-align: center;
+    width: 100%;
+    background-color:rgba(134, 21, 67, 0.6);
+    padding: 20px 0;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+}
+
+.thumbnail {
+    border: none;
+    margin: 0 auto 20px;
+    max-width: 500px;
+    position: relative;
+}
+
+.hero:hover img {
+    -webkit-filter: blur(0px);
+	filter: blur(0px);
+    transform: scale(1.06);
+    transition: .2s ease;
+}
+
+.hero:hover figcaption {
+    transform: translateY(80%) scaleX(1.06);
+    transition: .2s ease;
+
+}
+div.rodapé {
+    background: peachpuff;
+    color: rgb(134, 21, 67);
+    font-size: 2rem;
+    padding: 10px;
+}
+a {
+    text-decoration: none;
+}
